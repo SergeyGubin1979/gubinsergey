@@ -1,0 +1,14 @@
+@import url(style_pr_scr.css);
+        @media screen {
+        body {    font-family: sans-serif;
+            font-size: 14px;
+            background-color: #eee;
+        }
+    }
+    @media print{
+        body {
+            font-family: sans-serif;
+            font-size: 17px;
+            background-color: green;
+        }
+    }

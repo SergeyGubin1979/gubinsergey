@@ -1,0 +1,6 @@
+@import url(style_print2.css) print;
+body{
+    font-family: sans-serif;
+    font-size: 17px;
+    background-color: green;
+}    
