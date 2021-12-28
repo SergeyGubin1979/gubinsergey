@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS_container</title>
+    <style>
+        .div
+        {
+            background-color: black;
+            color: green;
+            max-width: 400px;
+            max-height: 80px;
+            overflow-x: auto;
+            overflow-y: auto;
+            white-space: pre;  
+        }
+        .ol
+        {
+            width: 300px;
+        }
+        .li
+        {
+            list-style-type: lower-roman;
+        }
+    </style>
+</head>
+<body>
+    <div class="div"><code>#!/usr/bin/env pyton
+        print 'Hello. I am a pyton program.'
+        name = raw_input("What is your name&")
+        print "Hello there, " + name + "!"</code>
+    </div>
+    <br><br>
+    <div><ol type="I"> 
+        <li>Ширина: 350рх</li>
+        <li>Тип списка: римские цифры</li>
+        <li>Тип вложенного списка: римский нижний регистр цифры</li>
+    </ol>
+    </div>
+</body>
+</html>
