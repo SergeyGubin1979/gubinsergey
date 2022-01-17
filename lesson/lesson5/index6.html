@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation</title>
+    <style>
+    .submenu{
+        transform: scaleY(0);
+        transform-origin: 0 0;
+    }
+    li{
+        transition-duration: 1.5s;
+        position: relative;
+    }
+    ul {
+        position: absolute;
+    }
+    li:hover{
+        cursor: pointer;
+      }
+    .topmenu li:hover .submenu {
+        transform: scaleY(1);
+        }
+    div{
+        background-color: seagreen;
+        height: 60px;
+        width: 140px;
+        border-radius: 10%;
+        border: 5px solid red;
+        margin: 2px;
+        float: left;
+    }
+  
+    </style>
+    
+</head>
+<body>
+ <div>   
+       <ul class="topmenu">
+           <li>Понедельник
+               <ul class="submenu">
+                   <div><li>Завтрак</li></div>
+                   <div><li>Обед</li></div>
+                   <div><li>Ужин</li></div>
+               </ul>
+           </li>
+       </ul>   
+  </div>
+  <div>    
+        <ul class="topmenu">
+            <li>Вторник
+                <ul class="submenu">
+                    <div><li>Завтрак</li></div>
+                    <div><li>Обед</li></div>
+                    <div><li>Ужин</li></div>
+                </ul>
+            </li>
+        </ul>    
+   </div>
+   <div>    
+        <ul class="topmenu">
+            <li>Среда
+                <ul class="submenu">
+                   <div><li>Завтрак</li></div>
+                   <div><li>Обед</li></div>
+                   <div><li>Ужин</li></div>
+                </ul>
+            </li>
+        </ul>    
+   </div>
+   <div>    
+        <ul class="topmenu">
+            <li>Четверг
+                <ul class="submenu">
+                   <div><li>Завтрак</li></div>
+                   <div><li>Обед</li></div>
+                   <div><li>Ужин</li></div>
+                </ul>
+            </li>
+        </ul>    
+   </div>
+   <div>    
+        <ul class="topmenu">
+            <li>Пятница
+                <ul class="submenu">
+                   <div><li>Завтрак</li></div>
+                   <div><li>Обед</li></div>
+                   <div><li>Ужин</li></div>
+                </ul>
+            </li>
+        </ul>    
+   </div>
+</body>
+</html>
